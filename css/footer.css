@@ -1,3 +1,55 @@
+/* footer panel 1 */
+
+.foot-panel1 {
+    text-align: left;
+    background-color: #eeeeee; 
+    padding: 20px; 
+    border-top: 1px solid #ddd; 
+}
+
+.panel1-head {
+    color: rgb(86, 86, 86);
+    margin-top: 14px;
+    padding: 14px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.panel1-head a {
+    color: #565656;
+    text-decoration: none; 
+}
+
+.panel1-head a:hover {
+    cursor: pointer;
+}
+
+.panel1-sub {
+    margin: 8px 0px;
+    line-height: 1.6;
+    font-size: 0;
+}
+
+.panel1-sub-head {
+    color: rgb(86, 86, 86);
+    text-transform: uppercase;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.panel1-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    padding: 0px 5px;
+    border-right: 1px solid rgb(51, 51, 51);
+    font-size: 12px;
+}
+
+.panel1-item:last-child {
+    border-right: none;
+}
+
 /* footer container */
 
 .footer-container {
